@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+  }
+  .hero {
+    background-color: #363636;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+  }
+  .course-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .course-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .btn-signin {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+  .btn-signin:hover {
+    background-color: #218838;
+  }
+  .course-icon {
+    font-size: 40px;
+    color: #007bff;
+  }
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
